@@ -48,7 +48,7 @@ local config = {
   apps = apps,
   user = user,
   terminal_cmds = terminal_cmds,
-  weather_coordinates = { 49.261749, 13.903450 },
+  weather_coordinates = { '31.377756', '121.2606119' },
   dashboard_monitor_storage = {"/", "/home", "/efi" },
   main_panel = 'wibar', -- variants: wibar, polybar, none
   --{{{ Features Activity

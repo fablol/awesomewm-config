@@ -407,8 +407,8 @@ wboxColor = theme.baseColors[6]
 local tempicon = wibox.widget.textbox();
 tempicon:set_markup(markup.fontfg(theme.font_larger, wboxColor, ""))
 local myWeather = weather_widget({
-  api_key='7df2ce22b859742524de7ab6c97a352d', --fill your API KEY
-  coordinates = { 49.261749, 13.903450 }, -- fill your coords
+  api_key = '9e00ba899551d23d2c892c0bee324bfc', --fill your API KEY
+  coordinates = { 31.377756, 121.2606119 }, -- fill your coords
   font_name = 'Carter One',
   show_hourly_forecast = true,
   show_daily_forecast = true,
