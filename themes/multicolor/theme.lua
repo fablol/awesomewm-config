@@ -163,7 +163,7 @@ if not fishlive.util.is_dir(notifpath_user) then notifpath_user = notifpath.."de
 local notif_user = {}
 -- Set wallpaper for each tag
 local wp_selected = {
-  "random",
+  -- "random",
   "00022-alone-samurai.jpg",
   "00002-GUWEIZ-samurai-girl.jpg",
   "colorscheme",
